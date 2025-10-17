@@ -24,6 +24,10 @@ ShowWordCount = true
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 
+# 为搜索生成索引 JSON
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
 # 个人资料模式配置
 [params.profileMode]
 enabled = true
@@ -36,10 +40,10 @@ imageHeight = 120
 # 社交链接
 [[params.profileMode.buttons]]
 name = "文章"
-url = "/posts"
+url = "posts/"
 [[params.profileMode.buttons]]
 name = "关于"
-url = "/about"
+url = "about/"
 
 # 社交图标
 [[params.socialIcons]]
@@ -59,20 +63,20 @@ tag = "tags"
 [[menu.main]]
 identifier = "archives"
 name = "归档"
-url = "/archives/"
+url = "archives/"
 weight = 10
 [[menu.main]]
 identifier = "search"
 name = "搜索"
-url = "/search/"
+url = "search/"
 weight = 20
 [[menu.main]]
 identifier = "categories"
 name = "分类"
-url = "/categories/"
+url = "categories/"
 weight = 25
 [[menu.main]]
 identifier = "tags"
 name = "标签"
-url = "/tags/"
+url = "tags/"
 weight = 30

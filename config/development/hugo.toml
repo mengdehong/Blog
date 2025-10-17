@@ -1,0 +1,4 @@
+# Local development overrides
+# This ensures `hugo server` serves the site at the root (/) locally,
+# while production still uses the repository subpath baseURL from the root hugo.toml
+baseURL = "http://localhost:1313/"
