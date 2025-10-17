@@ -1,0 +1,78 @@
+# 网站的根URL，部署后需要修改为你的域名
+baseURL = "https://mengdehong.github.io/"
+# 网站语言
+languageCode = "zh-cn"
+# 网站标题
+title = "🥝温眸的博客"
+# 启用主题
+theme = "PaperMod"
+
+# 开启对 .gitmodules 的支持，如果你想在 Netlify/Vercel 上部署
+enableGitInfo = true
+
+# 主题的核心参数配置
+[params]
+author = "温眸"
+description = "这是我的个人博客，分享技术与生活。"
+defaultTheme = "dark"                 # "auto", "light", "dark"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+
+# 个人资料模式配置
+[params.profileMode]
+enabled = true
+title = "你好，我是孟德红"
+subtitle = "在这里我分享我的学习笔记、项目和一些思考。欢迎交流！"
+imageUrl = "https://wenmou-1313491726.cos.ap-shanghai.myqcloud.com/20251017092318992.jpg?imageSlim"
+imageWidth = 120
+imageHeight = 120
+
+# 社交链接
+[[params.profileMode.buttons]]
+name = "文章"
+url = "/posts"
+[[params.profileMode.buttons]]
+name = "关于"
+url = "/about"
+
+# 社交图标
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/mengdehong"
+[[params.socialIcons]]
+name = "email"
+url = "mailto:mdh2018534846@gmail.com"
+
+# 分类
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+# 网站主菜单配置
+[menu]
+[[menu.main]]
+identifier = "archives"
+name = "归档"
+url = "/archives/"
+weight = 10
+[[menu.main]]
+identifier = "search"
+name = "搜索"
+url = "/search/"
+weight = 20
+[[menu.main]]
+identifier = "categories"
+name = "分类"
+url = "/categories/"
+weight = 25
+[[menu.main]]
+identifier = "tags"
+name = "标签"
+url = "/tags/"
+weight = 30

@@ -1,0 +1,22 @@
+# Hugo 构建产物
+/public/
+# Hugo Pipes 生成的资源
+/resources/
+.hugo_build.lock
+hugo_stats.json
+
+# 本地缓存/临时文件
+.cache/
+*.log
+*.tmp
+*~
+*.swp
+
+# 编辑器/系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 前端工具
+node_modules/
