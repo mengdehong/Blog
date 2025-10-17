@@ -1,5 +1,8 @@
 +++
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-date = {{ .Date }}
-draft = true
+date = "{{ now.Format "2006-01-02T15:04:05-07:00" }}"
+draft = false
+tags = []
+categories = []
+summary = ""
 +++

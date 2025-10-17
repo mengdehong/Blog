@@ -27,7 +27,7 @@ UseHugoToc = true
 # 个人资料模式配置
 [params.profileMode]
 enabled = true
-title = "你好，我是孟德红"
+title = "你好，我是温眸"
 subtitle = "在这里我分享我的学习笔记、项目和一些思考。欢迎交流！"
 imageUrl = "https://wenmou-1313491726.cos.ap-shanghai.myqcloud.com/20251017092318992.jpg?imageSlim"
 imageWidth = 120
