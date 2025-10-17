@@ -1,7 +1,7 @@
 +++
 title = 'Hugo'
 date = 2025-10-17T09:47:45+08:00
-draft = true
+draft = false
 tags = ["Hugo", "Blog"]
 categories = ["工程技术"]
 summary = "一份精炼的 Hugo 博客日常维护指南，覆盖从创建文章到部署上线的核心命令与关键知识点。"
