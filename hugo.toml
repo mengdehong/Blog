@@ -1,5 +1,5 @@
 # 网站的根URL，部署后需要修改为你的域名
-baseURL = "https://mengdehong.github.io/"
+baseURL = "https://mengdehong.github.io/Blog/"
 # 网站语言
 languageCode = "zh-cn"
 # 网站标题
