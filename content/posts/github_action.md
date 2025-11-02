@@ -7,8 +7,6 @@ categories = ["工程技术"]
 summary = "GitHub Actions 学习笔记，包括核心概念、工作流程、语法精要、环保变量、Secrets、常用 Actions 和安全最佳实践"
 +++
 
-# GitHub Actions 学习笔记
-
 ## 什么是 GitHub Actions？
 
 GitHub Actions 由 GitHub 平台提供，用于 CI/CD，通过创建自定义 Workflows，从 GitHub 仓库源代码触发 push/PR 时，执行 `Lint/Test/Build/Deploy` 等。
